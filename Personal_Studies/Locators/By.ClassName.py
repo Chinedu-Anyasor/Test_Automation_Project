@@ -19,4 +19,4 @@ print(len(sliders))
 links = driver.find_elements(By.TAG_NAME, "a")
 print(len(links))
 
-time.sleep(5)
+time.sleep(4)
