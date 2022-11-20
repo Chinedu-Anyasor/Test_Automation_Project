@@ -1,0 +1,270 @@
+1668383702078	geckodriver	INFO	Listening on 127.0.0.1:50393
+1668383702585	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50394" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileZpPtK9"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668383703721	Marionette	INFO	Marionette enabled
+1668383703908	Marionette	INFO	Listening on port 50409
+Read port: 50409
+WebDriver BiDi listening on ws://127.0.0.1:50394
+1668383704470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileZpPtK9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50394/devtools/browser/6b407798-496d-44a0-acfe-902626fdb31b
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.error: (new TypeError("topBrowsingContext is null", "resource://devtools/server/actors/watcher/browsing-context-helpers.sys.mjs", 387))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:777:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:658:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:777:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:658:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1039:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:579:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1039, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1039))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:365:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1039:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:579:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:688:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1039, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1039))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:98:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:187:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:731:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:365:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 98, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 98))
+1668384028004	geckodriver	INFO	Listening on 127.0.0.1:51776
+1668384028514	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51777" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilecRyBT2"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668384029647	Marionette	INFO	Marionette enabled
+1668384029871	Marionette	INFO	Listening on port 51794
+Read port: 51794
+WebDriver BiDi listening on ws://127.0.0.1:51777
+1668384030352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilecRyBT2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51777/devtools/browser/7d075450-4b76-4564-bf1f-0d480d469db2
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.error: "Unable to find target with innerWindowId:4294967298"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668384312582	geckodriver	INFO	Listening on 127.0.0.1:53010
+1668384313084	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53011" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileq8wDP0"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668384314424	Marionette	INFO	Marionette enabled
+1668384314459	Marionette	INFO	Listening on port 53026
+Read port: 53026
+WebDriver BiDi listening on ws://127.0.0.1:53011
+1668384314945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileq8wDP0/search.json.mozlz4", (void 0)))
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+DevTools listening on ws://127.0.0.1:53011/devtools/browser/9a3422a1-93f6-435a-be76-9a142d37b655
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668385057054	geckodriver	INFO	Listening on 127.0.0.1:56083
+1668385057563	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56084" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilejSvtkI"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668385058747	Marionette	INFO	Marionette enabled
+1668385058945	Marionette	INFO	Listening on port 56099
+Read port: 56099
+WebDriver BiDi listening on ws://127.0.0.1:56084
+1668385059486	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilejSvtkI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56084/devtools/browser/d0f4b152-2456-4658-af58-9621ba82464c
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668385242516	geckodriver	INFO	Listening on 127.0.0.1:56883
+1668385243023	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56884" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofile3HPVJA"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668385243962	Marionette	INFO	Marionette enabled
+1668385244001	Marionette	INFO	Listening on port 56895
+Read port: 56895
+WebDriver BiDi listening on ws://127.0.0.1:56884
+1668385244504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofile3HPVJA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56884/devtools/browser/eaf48b82-178b-437e-b76c-cb4e8776d4e5
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668386276058	Marionette	INFO	Stopped listening on port 56895
+1668386279861	Marionette	INFO	Stopped listening on port 56099
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668386282325	Marionette	INFO	Stopped listening on port 53026
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668386285497	Marionette	INFO	Stopped listening on port 51794
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668386288266	Marionette	INFO	Stopped listening on port 50409
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668418321847	geckodriver	INFO	Listening on 127.0.0.1:49570
+1668418322350	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49571" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileDc9pI7"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668418323522	Marionette	INFO	Marionette enabled
+1668418323591	Marionette	INFO	Listening on port 49578
+Read port: 49578
+WebDriver BiDi listening on ws://127.0.0.1:49571
+1668418324068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileDc9pI7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49571/devtools/browser/0d6b0b2f-dbda-4949-ace5-3868a02b984e
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:35:23Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+JavaScript warning: https://www.youtube.com/s/player/c4225c42/player_ias.vflset/en_US/base.js, line 9665: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+[2022-11-14T09:54:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:54:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:54:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T09:54:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 568))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 568))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 568))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 3445 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 1175: TypeError: state.hideToggleDeferredTask is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HXK1UBO5dJ_nYlUyX89SMP4zFPzfcfFy3F4kBoREzco.js line 2 > eval line 1139 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "Unable to find target with innerWindowId:10737418241"
+console.error: "Unable to find target with innerWindowId:10737418241"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-117006166%3A1668420303211871&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVGecJY7u6So&ec=65620&hl=en&passive=true&service=youtube&uilel=3&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAsa_iCnKM1WyVjWuF8jpf50T4GB6_blvILpJ8Z0HbgiqlfHI8Uh-qqpieJvMOv2NejM35-M line 589 > injectedScript line 2 > eval line 223 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-117006166%3A1668420303211871&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVGecJY7u6So&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARgdvAvZ8i1kvkB5JqtLbOHKALl7sLVQSQcSJYgwT3GXFfoNULAOWCn3LZPaYFd6spl2yWfKRjXF0A&service=youtube line 589 > injectedScript line 2 > eval line 5981 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-117006166%3A1668420303211871&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DVGecJY7u6So&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=ARgdvAsAMaDLI20uaU8BCX7GIt72Bgn7wia1U767YbJEXbEW9A1UIFhyZSo20s11jvcc_Ysf6PLB6Q&service=youtube line 589 > injectedScript line 2 > eval line 7452 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+[2022-11-14T10:34:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T10:34:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T10:34:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-14T10:34:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1668423435713	geckodriver	INFO	Listening on 127.0.0.1:51245
+1668423436220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51246" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilexkjeaT"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668423437024	Marionette	INFO	Marionette enabled
+1668423437287	Marionette	INFO	Listening on port 51261
+Read port: 51261
+WebDriver BiDi listening on ws://127.0.0.1:51246
+1668423437781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilexkjeaT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51246/devtools/browser/e5f6f6db-f0d0-43d6-bb98-bf56c175411f
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668424506888	geckodriver	INFO	Listening on 127.0.0.1:55641
+1668424507398	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55642" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilenxwByw"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668424508250	Marionette	INFO	Marionette enabled
+1668424508401	Marionette	INFO	Listening on port 55657
+Read port: 55657
+WebDriver BiDi listening on ws://127.0.0.1:55642
+1668424509017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofilenxwByw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55642/devtools/browser/2d662a63-53b2-4985-aa6f-8d94bb730f53
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668424562678	geckodriver	INFO	Listening on 127.0.0.1:55922
+1668424563185	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "55923" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileoXT14U"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668424564449	Marionette	INFO	Marionette enabled
+1668424564867	Marionette	INFO	Listening on port 55938
+Read port: 55938
+WebDriver BiDi listening on ws://127.0.0.1:55923
+1668424565140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileoXT14U/search.json.mozlz4", (void 0)))
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+DevTools listening on ws://127.0.0.1:55923/devtools/browser/ccaa223e-492a-4ae2-b18d-02ec8e3e0a3d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668424615232	geckodriver	INFO	Listening on 127.0.0.1:56183
+1668424615756	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56184" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileRdrZlA"
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+1668424616671	Marionette	INFO	Marionette enabled
+1668424617006	Marionette	INFO	Listening on port 56199
+Read port: 56199
+WebDriver BiDi listening on ws://127.0.0.1:56184
+1668424617599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/9z/3m0vvtvd5x18n9n966hm8b0c0000gn/T/rust_mozprofileRdrZlA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56184/devtools/browser/d1c4a485-951d-4628-b136-12457232e535
+_RegisterApplication(), FAILED TO establish the default connection to the WindowServer, _CGSDefaultConnection() is NULL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1668424664316	Marionette	INFO	Stopped listening on port 56199
+1668424669056	Marionette	INFO	Stopped listening on port 55938
+1668424672479	Marionette	INFO	Stopped listening on port 55657
+1668424675583	Marionette	INFO	Stopped listening on port 51261
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668471705354	Marionette	INFO	Stopped listening on port 49578
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
