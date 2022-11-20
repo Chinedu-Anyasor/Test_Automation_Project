@@ -39,5 +39,13 @@ jobs:
      - run: python Python_task\Task_23.py
      - run: python Python_task\Task_24.py
      - run: python Python_task\Task_25.py
-     - run: python Selenium_Web_Automation_Challenge\BBC.py
-     - run: python Selenium_Web_Automation_Challenge\Facebook_LoginPage.py
+     - run: python python_challenge(technical_question)\Question_1.py
+     - run: python python_challenge(technical_question)\Question_2.py
+     - run: python python_challenge(technical_question)\Question_3.py
+     - run: python python_challenge(technical_question)\Question_4.py
+     - run: python python_challenge(technical_question)\Question_5.py
+     - run: python python_challenge(technical_question)\Question_6.py
+     - run: python python_challenge(technical_question)\Question_7.py
+     - run: python python_challenge(technical_question)\Question_8.py
+     - run: python python_challenge(technical_question)\Question_9.py
+     - run: python python_challenge(technical_question)\Question_10.py
