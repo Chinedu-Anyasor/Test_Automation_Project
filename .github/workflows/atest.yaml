@@ -14,3 +14,28 @@ jobs:
      - run: node JavaScript-Programming-Language\JavaScript_Challenge\js_code_challenge6.js
      - run: node JavaScript-Programming-Language\JavaScript_Challenge\js_code_challenge7.js
      - run: node JavaScript-Programming-Language\JavaScript_Challenge\js_code_challenge8.js
+     - run: python Python_task\Task_1.py
+     - run: python Python_task\Task_2.py
+     - run: python Python_task\Task_3.py
+     - run: python Python_task\Task_4.py
+     - run: python Python_task\Task_5.py
+     - run: python Python_task\Task_6.py
+     - run: python Python_task\Task_7.py
+     - run: python Python_task\Task_8.py
+     - run: python Python_task\Task_9.py
+     - run: python Python_task\Task_10.py
+     - run: python Python_task\Task_11.py
+     - run: python Python_task\Task_12.py
+     - run: python Python_task\Task_13.py || true
+     - run: python Python_task\Task_14.py
+     - run: python Python_task\Task_15.py
+     - run: python Python_task\Task_16.py
+     - run: python Python_task\Task_17.py
+     - run: python Python_task\Task_18.py
+     - run: python Python_task\Task_19.py
+     - run: python Python_task\Task_20.py
+     - run: python Python_task\Task_21.py
+     - run: python Python_task\Task_22.py
+     - run: python Python_task\Task_23.py
+     - run: python Python_task\Task_24.py
+     - run: python Python_task\Task_25.py
