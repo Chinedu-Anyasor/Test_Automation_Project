@@ -41,4 +41,3 @@ jobs:
      - run: python Python_task\Task_25.py
      - run: python Selenium_Web_Automation_Challenge\BBC.py
      - run: python Selenium_Web_Automation_Challenge\Facebook_LoginPage.py
-     - run: python Selenium_Web_Automation_Challenge\Google.py
